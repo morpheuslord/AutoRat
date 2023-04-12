@@ -1,10 +1,12 @@
-# Requirements
+# AutoRat
+
+## Requirements
 
 Firstly, for the Requirements we need the following
 - Ubuntu OS over a server
 - Steady internet
 
-# Installation
+## Installation
 
 Run the following commands
 
@@ -18,11 +20,11 @@ and
 pip3 install -r requirements.txt
 ```
 
-# How to run
+## How to run
 
 `python3 main.py`
 
-# Guilines on How to use
+## Guilines on How to use
 
 - `First`: The options must be selected and must be in an order for example for a payload to be signed it must be first be generated.
 - `Second`: While generating the payload make sure that the .apk extention is written.
@@ -38,11 +40,11 @@ run
 ```
 Just copy paste them one by one
 
-# File locations
+## File locations
 - The signed files will be located in the `signed_files` directory
 - The keyfile and the payload file will be located in `payload_files` directory
 
-# Hosting
+## Hosting
 
 I suggest you have a web-hosting on servers like `Linode` or `AWS` so that the hosting process is easy.
 The payload files will be hosted on the apache server and you just need to enter the `http://<IP>/<apk_name>` to start the download.
@@ -50,7 +52,7 @@ The OMG cable must first disable the Google play protect for this to be successf
 
 `Point to remember`: all the packages needed are installed by the installer script and no manual installations are needed.
 
-# OMG cable
+## OMG cable
 
 The OMG cable has its own scripting and the guild will be provided on the time of buying and these are the things that must be taken care using the OMG cable
 - Disable Google Play Protect
