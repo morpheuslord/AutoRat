@@ -60,5 +60,5 @@ The OMG cable has its own scripting and the guild will be provided on the time o
 
 The scripting language has its own methods of doing this and this is the path to diable google play protect.
 ```
-Settings >> Google >> Security >> Google Play Protect >> Tap on Cog-wheel >> Select Scan apps with Play Protect to turn it off
+Google play >> top-right profile >> play-protect option >> playprotect settingd >> disable the 2 options
 ```
